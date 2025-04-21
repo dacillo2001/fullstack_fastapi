@@ -38,10 +38,10 @@ Description: Fetch all to-do items.
 
 1.POST https://nicoleback.onrender.com/todos/ Description: Create a new to-do item.
 
-2.GET https://nicoleback.onrender.com/todos/{todo_id} Description: Fetch a single to-do item by ID.
+2.GET https://nicoleback.onrender.com/nicoletodo/ Description: Fetch a single to-do item by ID.
 
 3.PUT https://nicoleback.onrender.com/todos/{todo_id} Description: Update a to-do item by ID.
 
 4.DELETE https://nicoleback.onrender.com/todos/{todo_id} Description: Delete a to-do item by ID.
 
-5.GET https://nicoleback.onrender.com/todos/filter/{status} Description: Fetch to-do items filtered by status (completed or pending).
+5.GET https://nicoleback.onrender.com/nicoletodo/filter/%7Bstatus%7D Description: Fetch to-do items filtered by status (completed or pending).
